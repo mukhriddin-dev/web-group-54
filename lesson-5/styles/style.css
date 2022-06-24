@@ -1,26 +1,25 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
 @font-face {
-  font-family: 'header';
+  font-family: "header";
   src: url("../fonts/collegiate/CollegiateFLF.ttf");
 }
 
-.header{
+.header {
   background: green;
   width: 100%;
   height: 40px;
-  color:white;
+  color: white;
   text-align: center;
   padding-top: 12px;
   text-transform: uppercase;
   font-family: "header";
-
 }
 
-.navbar{
+.navbar {
   background: aqua;
   padding: 10px;
   text-align: center;
@@ -28,34 +27,33 @@
   text-transform: uppercase;
 }
 
-section{
-width: 70%;
-background: orange;
-height: 400px;
-display: inline-block;
+section {
+  width: 70%;
+  background: orange;
+  height: 400px;
+  display: inline-block;
 }
 
-article{
+article {
   background: silver;
   margin: 5px;
-  padding: 6px 10px; 
+  padding: 6px 10px;
 }
 
-aside{
-  background:crimson;
+aside {
+  background: crimson;
   display: inline-block;
   width: 26%;
   padding: 8px;
-
 }
 
-ul{
+ul {
   list-style-type: none;
 }
 
-.footer{
-  background:grey;
+.footer {
+  background: grey;
   padding: 10px;
   text-align: center;
-  color:white;
+  color: white;
 }
