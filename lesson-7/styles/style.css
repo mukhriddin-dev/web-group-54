@@ -8,8 +8,11 @@
 
 .flex-container{
    width: 100%;
-   height: 500px;
-   background: lime;
+   height: 900px;
+   background-image:radial-gradient(red 10%,green, blue 40%, black,yellow); 
+   background-color:rgb(195, 0, 0);
+   background-repeat:no-repeat;
+   background-size: initial;
    display: flex;
    flex-direction: row;
    justify-content:space-evenly;

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- normalize -->
+   <link rel="stylesheet" href="./styles/normalize.css">
+   <!-- main style -->
+   <link rel="stylesheet" href="./styles/style.css">
+   <title>Lesson 8</title>
+</head>
+
+<body>
+
+   <h2>Registration form</h2>
+   <form action="https://echo.htmlacademy.ru/" method="POST" class="form">
+
+      <label for="firstname"> First name
+         <input type="text" class="input_form" maxlength="15" minlength="3" name="user_name" id="firstname" required
+            placeholder="Enter your name">
+      </label>
+
+      <label for="lastname"> Last name
+         <input type="text" class="input_form" name="user_surname" id="lastname" placeholder="Enter your surname">
+      </label>
+
+      <label for="email"> Email
+         <input type="email" class="input_form" name="email" id="email" required>
+      </label>
+
+      <label for="age"> Age
+         <input type="number" max="99" min="12" class="input_form" name="email" id="age" required>
+      </label>
+
+      <label for="password"> password
+         <input type="password" maxlength="12" minlength="8" class="input_form" name="password" id="password" required>
+      </label>
+
+      <label for="day"> Date of birth
+         <input type="date" id="day" name="birthday" required>
+      </label>
+
+
+      <label for="lastname"> Gender-
+         Male: <input type="radio" id="lastname" name="gen">
+         Female: <input type="radio" id="lastname" name="gen">
+      </label>
+
+
+      <label for="number"> Phone number
+         <input type="tel" class="input_form" name="tel" id="number">
+      </label>
+
+      <p>Addres</p>
+      <textarea name="text" id="text" cols="30" rows="10" required>
+
+ </textarea>
+
+      <input class="btn" type="submit" value="yuborish">
+
+      <input class="btn" type="reset" value="reset">
+
+
+
+
+
+      <input type="color">
+
+      <input type="file">
+
+      <input type="checkbox">
+
+      <input type="datetime" name="data" id="ok">
+
+      <input type="button" value="send">
+
+
+      <button>ok</button>
+
+
+      <input type="range" value="40" step="50">
+
+      <input type="month">
+
+
+   </form>
+
+
+
+   <form action="https://echo.htmlacademy.ru" method="POST">
+
+      <label for="region">Choose a region:</label>
+
+      <select name="region" id="region">
+        
+         <option value="Andijon">Andijon</option>
+         <option value="Buxoro">Buxoro</option>
+         <option value="Farg'ona">Farg'ona</option>
+         <option value="Andijon">Andijon</option>
+         <option value="Buxoro">Buxoro</option>
+         <option value="Farg'ona">Farg'ona</option>
+         <option value="Andijon">Andijon</option>
+         <option value="Buxoro">Buxoro</option>
+         <option value="Farg'ona">Farg'ona</option>
+
+      </select>
+
+
+
+      <select name="cars" id="region">
+
+         <optgroup label="Merc">
+
+            <option value="Andijon">Andijon</option>
+            <option value="Buxoro">Buxoro</option>
+            <option value="Farg'ona">Farg'ona</option>
+            <option value="Andijon">Andijon</option>
+            <option value="Buxoro">Buxoro</option>
+
+         </optgroup>
+
+         <optgroup label="BMW">
+
+            <option value="Farg'ona">Farg'ona</option>
+            <option value="Andijon">Andijon</option>
+            <option value="Buxoro">Buxoro</option>
+            <option value="Farg'ona">Farg'ona</option>
+
+         </optgroup>
+         
+      </select>
+
+
+
+      <input type="submit" value="yubor">
+
+   </form>
+
+
+</body>
+
+</html>

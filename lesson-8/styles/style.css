@@ -1,0 +1,33 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+.form{
+   display: flex;
+   flex-direction: column;
+   margin: 30px;
+   background: silver;
+   padding: 60px;
+}
+
+label{
+   margin-top: 12px;
+}
+
+.input_form{
+ width: 200px;
+ height: 40px;
+ padding-left: 10px;
+ border-radius:40px  0px 0 40px  ;
+ -webkit-border-radius:40px  0px 0 40px  ;
+ -moz-border-radius:40px  0px 0 40px  ;
+ -ms-border-radius:40px  0px 0 40px  ; 
+ -o-border-radius:40px  0px 0 40px  ;
+}
+
+.btn{
+   width: 140px;
+   margin: 4px;
+}
+
