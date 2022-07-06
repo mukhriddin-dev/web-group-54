@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 20px;
+}
+
+.container input[type="checkbox"] {
+  width: 14px;
+  height: 14px;
+  display: block;
+  position: relative;
+}
+
+.container .checkmark::after {
+  content: "";
+  width: 200px;
+  height: 200px;
+  display: block;
+  background-image: url("https://picsum.photos/200/200");
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  z-index: 22;
+}
+
+.container input:checked ~ .checkmark::after {
+  content: "";
+  width: 200px;
+  height: 200px;
+  display: none;
+  background-image: url("https://picsum.photos/100/100");
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  z-index: 22;
+}
