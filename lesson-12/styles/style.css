@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.box{
+  background: seagreen;
+  width: 350px;
+  height: 350px;
+  padding: 30px;
+  margin: 180px auto;
+  transition: all 3s ease;
+  -webkit-transition: all 3s ease;
+  -moz-transition: all 3s ease;
+  -ms-transition: all 3s ease;
+  -o-transition: all 3s ease;
+}
+
+
+.box:hover{
+  transform: rotate(-14444deg);
+  background: crimson;
+  -webkit-transform: rotate(-14444deg);
+  -moz-transform: rotate(-14444deg);
+  -ms-transform: rotate(-14444deg);
+  -o-transform: rotate(-14444deg);
+}

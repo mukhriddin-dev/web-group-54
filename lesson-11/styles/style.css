@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
 
 .container {
   margin: 40px auto;
@@ -41,4 +42,36 @@
   left: 15px;
   top: 15px;
   z-index: 22;
+}
+
+li {
+  list-style-type: none;
+  display: flex;
+  position: relative;
+}
+
+li a {
+  text-decoration: none;
+}
+
+li:nth-child(1) a {
+  color: red;
+}
+
+li:nth-child(1) a::before {
+  content: "";
+  color: red;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: aqua;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: block;
+  position: absolute;
+  left:-12px;
+  top:5px;
+
 }
